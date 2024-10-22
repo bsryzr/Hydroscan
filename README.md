@@ -1,5 +1,37 @@
-# Hydroscan
-The HYDROSCAN project is an unmanned surface vehicle monitoring water quality using sensors for temperature, pH, TDS, and turbidity. A single-board computer processes data and uses LoRaWAN for remote monitoring. Supported by HAVELSAN and TÜBİTAK, it operates semi-autonomously with plans for full autonomy and machine learning.
+# HYDROSCAN - Autonomous Unmanned Surface Vehicle (USV) for Water Quality Monitoring
+# Project Overview 
+The HYDROSCAN project aims to design and implement an autonomous unmanned surface vehicle (USV) to monitor water quality in various aquatic environments. It leverages advanced sensor technology and automation to provide real-time water quality data, making the monitoring process more efficient and accurate.
+# Key Features:
+Sensors: Temperature, pH, Total Dissolved Solids (TDS), Turbidity
+Remote Monitoring: Uses LoRaWAN for long-range communication
+Energy Efficiency: Solar-powered with low-energy components
+Autonomous Navigation: GPS-enabled for route planning and navigation
+# System Components
+Microcontroller: STM32F407 Discovery board
+Communication Module: LoRa Grove Wio E5
+Navigation: GPS integrated for location tracking
+Energy Source: Solar panels and rechargeable batteries
+Sensors:
+pH Sensor
+Temperature Sensor
+Turbidity Sensor
+TDS Sensor
+# Working Principle
+The HYDROSCAN USV operates autonomously, moving to pre-programmed GPS coordinates, collecting water quality data, and returning to its starting point. Data is transmitted in real-time to a base station using LoRaWAN, ensuring continuous monitoring and analysis.
+
+# Design and Implementation
+Mechanical Design: Developed in SOLIDWORKS
+Mathematical Modelling: Simulated using MATLAB/Simulink
+Controller Design: Linearization and trimming techniques for accuracy
+# Sponsors & Support
+HAVELSAN: Mentorship and guidance
+TÜBİTAK: Applied for 2209-A Research Projects Support
+İMTES: Chassis production sponsorship
+How to Use
+Deploy the HYDROSCAN vehicle in the desired water body.
+Monitor real-time data via the user interface.
+Analyze water quality data remotely through the LoRaWAN network.
+
 https://youtube.com/shorts/_hcI8iP7sBo?si=F9TVmlFPARDeu9Fb
 ![image](https://github.com/user-attachments/assets/c8bb341c-8889-4c8d-ae23-38db8b5c4ae8)
 ![image](https://github.com/user-attachments/assets/f8541490-885f-4082-9ec9-966031233bbb)
